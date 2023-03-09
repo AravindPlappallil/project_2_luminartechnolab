@@ -1,0 +1,49 @@
+.img-carousel {
+    height: 500px;
+}
+
+.carousel slide {
+    position: relative;
+}
+
+#slide-1 {
+    position: absolute;
+    right: 31%;
+    bottom: 7.25rem;
+    left: 11%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: left;
+}
+
+.slide-h1 {
+    font-size: 323%;
+    text-align: left;
+}
+
+.slide-p1 {
+    font-size: 88%;
+    text-align: left;
+}
+
+#slide-2 {
+    position: absolute;
+    right: 31%;
+    bottom: 7.25rem;
+    left: 11%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: left;
+}
+
+#slide-b1 {
+    border-radius: 25px;
+    background-color:#5e068a;
+}
+
+#slide-b2 {
+    border-radius: 25px;
+    background-color: #5e068a;
+}
