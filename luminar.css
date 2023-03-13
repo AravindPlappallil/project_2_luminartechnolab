@@ -40,22 +40,24 @@
 
 #slide-b1 {
     border-radius: 25px;
-    background-color:#5e068a;
+    background-color: #5e068a;
     border: #5e068a;
-    
+
 }
 
 #slide-b2 {
     border-radius: 25px;
     background-color: #5e068a;
     border: #5e068a;
-    
+
 }
-.st2{
+
+.st2 {
     margin-left: 15px;
     margin-right: 15px;
 }
-.st2h1{
+
+.st2h1 {
     font-size: 32px;
     margin-bottom: 20px;
     padding-top: 22px;
@@ -65,21 +67,92 @@
     line-height: 1.2;
     text-transform: capitalize;
 }
-.st2h2{
+
+.st2h2 {
     font-size: 18px;
 }
-.st2p1{
+
+.st2p1 {
     line-height: 28px;
     margin-bottom: 12px;
     font-size: 15px;
     max-width: 565px;
 }
-.st2b1{
+
+.st2b1 {
     margin-top: 40px;
-   border-radius: 50px;
-   font-size: 20px;
-   color: white;
-   background-color: #5e068a;
-   border:2px solid #5e068a;
-   padding: 16px 27px;
+    border-radius: 50px;
+    font-size: 20px;
+    color: white;
+    background-color: #5e068a;
+    border: 2px solid #5e068a;
+    padding: 16px 27px;
+}
+
+.st3h1 {
+    font-size: 25px;
+    line-height: 27px;
+    font-weight: 700;
+    color: #5e068a;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+
+.st3 {
+    transition: 0.6s ease-in-out;
+
+}
+
+.st3:hover {
+    transform: scale(1.01);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.st4h1 {
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 700;
+    color: #5e068a;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+
+.st4card {
+    /* border-color: white; */
+    transition: 0.6s ease-in-out;
+
+}
+
+.st4card:hover {
+    transform: scale(1.01);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.button1 {
+    text-align: center;
+}
+
+.but {
+    margin-top: 40px;
+    border-radius: 40px;
+    font-size: 18px;
+    background-color: white;
+    color: #5e068a;
+    border: 2px solid #5e068a;
+    padding: 16px 27px;
+}
+
+.but:hover {
+    color: white;
+    background-color: #5e068a;
+}
+
+@media( max-width:800px ) {
+    h1{
+        font-size: 20px;
+        line-height: 25px;
+        padding-bottom: 10px;
+        margin-left: -66px;
+    }
 }
